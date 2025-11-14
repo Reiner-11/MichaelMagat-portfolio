@@ -1,8 +1,8 @@
-# Run and deploy your AI Studio app
+# Run and deploy your VERCEL app
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1o-N_litOihHCtP8HoBwBXH7pb_dedaIt
+View your app in Vercel website https://michael-magat-portfolio.vercel.app/#
 
 ## Run Locally
 
