@@ -36,7 +36,8 @@ export const projects: Project[] = [
     tags: [
       { name: 'CSharp', color: 'blue-text-gradient' },
     ],
-    image: '/assets/project4.jpg',
+    image: new URL('./assets/project4.jpg', import.meta.url).href,
+    source_code_link: ''
   },
   {
     title: 'Shoetopia',
@@ -45,7 +46,8 @@ export const projects: Project[] = [
       { name: 'Figma', color: 'pink-text-gradient' },
       { name: 'UI/UX', color: 'green-text-gradient' },
     ],
-    image: '/assets/project3.jpg',
+    image: new URL('./assets/project3.jpg', import.meta.url).href,
+    source_code_link: ''
   },
   {
       title: 'E-LIBRAMO',
@@ -55,7 +57,7 @@ export const projects: Project[] = [
       { name: 'PYTHON', color: 'green-text-gradient' },
       { name: 'JAVASCRIPT', color: 'pink-text-gradient' },
     ],
-    image: '/assets/project1.jpg',
+  image: new URL('./assets/project1.jpg', import.meta.url).href,
     source_code_link: 'https://github.com/NezraDev/E-LIBRAMO',
   },
   {
@@ -66,7 +68,7 @@ export const projects: Project[] = [
       { name: 'JAVA', color: 'green-text-gradient' },
       { name: 'Tailwind CSS', color: 'pink-text-gradient' },
       ],
-    image: '/assets/project2.jpg',
+  image: new URL('./assets/project2.jpg', import.meta.url).href,
     source_code_link: 'https://github.com/Reiner-11/we_order',
   },
 ];
@@ -79,14 +81,14 @@ export const achievements: AchievementCategory[] = [
       'Best Literary Character 3rd Runner Up (Grade 10 - Quirino - 2019)',
       'Best Literary Character 2nd Runner Up (Grade 12 - GAS - 2021)',
     ],
-    image: '/assets/achievement1.jpg',
+  image: new URL('./assets/achievement1.jpg', import.meta.url).href,
   },
   {
     category: 'Mr. & Ms. CCS Pageant Competition',
     items: [
       'Mr. CCS 2nd Runner Up (BSCS 2B - 2025)',
     ],
-    image: '/assets/achievement2.jpg',
+  image: new URL('./assets/achievement2.jpg', import.meta.url).href,
   },
   {
     category: 'Classical Guitar Solo Competition',
@@ -95,7 +97,7 @@ export const achievements: AchievementCategory[] = [
       'Culture and Arts Competition U-WIDE Inter-Campus 2nd Place (BSCS 3A - 2025)',
       'Performed as Classical guitarist at the annual university music festival.',
     ],
-    image: '/assets/achievement3.jpg',
+  image: new URL('./assets/achievement3.jpg', import.meta.url).href,
   },
 ];
 

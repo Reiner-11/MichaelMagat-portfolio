@@ -11,11 +11,11 @@ const About: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
-            <img 
-              src="/assets/profile.jpg" 
-              alt="Michael Reiner Magat" 
-              className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-blue-500 shadow-lg"
-            />
+              <img
+                src={new URL('../assets/profile.jpg', import.meta.url).href}
+                alt="Michael Reiner Magat"
+                className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-blue-500 shadow-lg"
+              />
           </div>
           <div className="md:w-2/3">
             <p className="text-lg leading-relaxed mb-6">

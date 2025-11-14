@@ -1,10 +1,13 @@
 
+/// <reference types="vite/client" />
+
 import React, { useState } from 'react';
 import { XMarkIcon } from './Icons';
 
 const CV: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const cvImageUrl = '/assets/CV.jpg'; // Using a sample CV image from local assets
+  // Use Vite-resolved URL so the CV image is bundled and gets the correct URL in production.
+  const cvImageUrl = new URL('../assets/CV.jpg', import.meta.url).href;
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);

@@ -11,8 +11,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 flex flex-col">
-      <div className="relative">
-        <img src={image} alt={title} className="w-full h-56 object-cover" />
+      <div className="relative bg-gray-100 dark:bg-gray-900">
+        <img src={image} alt={title} className="w-full h-64 object-contain" />
         <div className="absolute top-4 right-4 flex gap-2">
           {source_code_link && (
             <a href={source_code_link} target="_blank" rel="noopener noreferrer" className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:opacity-80 transition-opacity" title="View Source Code">
