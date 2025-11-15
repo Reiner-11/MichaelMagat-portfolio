@@ -2,7 +2,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in Vercel website https://michael-magat-portfolio.vercel.app/#
+View your app in Vercel website (https://michael-magat-portfolio.vercel.app/)
 
 ## Run Locally
 
